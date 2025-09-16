@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Personalizzato</title>
+  <style>
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: orange;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #f5f5f5;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .logo h2 {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #0077cc;
+    }
+
+    main p{
+        padding: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Il Mio Sito</h1>
+      <h2>SHAW!</h2>    
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Servizi</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p>BLA BLA BLA</p>
+  </main>
+
+</body>
+</html>
